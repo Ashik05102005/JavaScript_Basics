@@ -5,4 +5,4 @@ for(let i=1;i<=50;i++){
 }
 console.log(arr)
 let filtered_array=arr.filter((value)=>value%5===0);
-console.log(filtered_array)
+console.log(filtered_array);
