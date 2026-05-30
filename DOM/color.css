@@ -1,0 +1,64 @@
+body{
+    background-color:black;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+#container{
+    color:white;
+    border:1px solid white;
+    height: 400px;
+    width : 400px;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    
+}
+#checkbox-container{
+    display: flex;
+    justify-self: flex-start;
+    padding: 20px;
+    position:absolute;
+    left:290px;
+    top:150px;
+}
+#checkbox{
+    height: 30px;
+    width: 30px;
+}
+#color-container{
+    display:flex;
+    flex-direction: row;
+    gap:10px;
+}
+.circle{
+    border: 1px solid white;
+    height:30px;
+    width:30px;
+    border-radius: 50%;
+}
+#green{
+    background-color: greenyellow;
+}
+#blue{
+    background-color: blue;
+}
+#purple{
+    background-color: purple;
+}
+#pink{
+    background-color: pink;
+}
+#yellow{
+   background-color: yellow; 
+}
+#red{
+    background-color: red;
+}
+.circle:hover{
+    transform: scale(1.1);
+    transition: all 0.6s;
+}
