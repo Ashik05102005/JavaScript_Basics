@@ -1,10 +1,5 @@
 let filterByLength=(array,min,max)=>{
-    let res=array.filter((x)=>x.length>min&&x.length<max)
-    console.log(res)
-
+    let res=array.filter((x)=>x.length>min&&x.length<max);
+    return res 
 }
-
-
-
-
-filterByLength(["a", "ab", "abc", "abcd", "abcde"], 1, 5) 
+console.log(filterByLength(["a", "ab", "abc", "abcd", "abcde"], 1, 5)); 
