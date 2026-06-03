@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="container">
+    <button id="create">add</button>
+    <button id="delete">remove</button>
+    </div>
+    
+    <script>
+        let create_btn=document.getElementById("create");
+        create_btn.addEventListener("click",()=>{
+            let hello=document.createElement("p")
+            let i=1
+            hello.textContent="heloo";
+            document.getElementById("container").appendChild(hello);
+        })
+         let delete_btn=document.getElementById("delete");
+         delete_btn.addEventListener("click",()=>{
+            console.log("hfedhb")
+            let dlt=document.getElementsByTagName("p");
+            dlt[0].remove()
+            
+        })
+        create_btn.addEventListener("mouseover",()=>{
+            create_btn.style.backgroundColor="green"
+        })
+        delete_btn.addEventListener("mouseover",()=>{
+            delete_btn.setAttribute("style","background-color:yellow ;");
+        })
+    </script>
+</body>
+</html>

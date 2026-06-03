@@ -6,6 +6,6 @@ let capitalizeFirstLetter=(string)=>{
         x=x.replace(firstLetter,capitalized_first_letter);
         return x;
     })
-   return result.join(" ");
+   return result.join("  ");
 }
 console.log(capitalizeFirstLetter("hello world hi world"));
