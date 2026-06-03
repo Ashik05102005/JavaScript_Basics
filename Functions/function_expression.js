@@ -4,5 +4,5 @@ let sqrt=function(array){
 }
 let arr=[4,9,16,25,36,49,64,81,100]
 let res=sqrt(arr);
-console.log(arr)
-console.log(res)
+console.log("orginal array "+arr)
+console.log("result "+res)
