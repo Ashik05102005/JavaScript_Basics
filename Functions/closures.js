@@ -1,11 +1,11 @@
-function main(a,b){
-    let c=a+b;
-    function display(){
-        console.log(c);
-    }
-    return display;
-}
-let res=main(5,6);
+// function main(a,b){
+//     let c=a+b;
+//     function display(){
+//         console.log(c);
+//     }
+//     return display;
+// }
+// let res=main(5,6);
 res()
 function add(){
     let a=10;
